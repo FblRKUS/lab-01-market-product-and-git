@@ -6,9 +6,9 @@
 
 ## Main components
 
-![Telegram Component Diagram](out/telegram/component-diagram/Component%20Diagram.svg)
+![Telegram Component Diagram](diagrams/out/telegram/component-diagram/Component%20Diagram.svg)
 
-[Telegram Component Diagram Code](src/telegram/component-diagram.puml)
+[Telegram Component Diagram Code](diagrams/src/telegram/component-diagram.puml)
 
 ### Selected components
 
@@ -26,9 +26,9 @@
 
 ## Data flow
 
-![Telegram Sequence Diagram](out/telegram/sequence-diagram/Sequence%20Diagram.svg)
+![Telegram Sequence Diagram](diagrams/out/telegram/sequence-diagram/Sequence%20Diagram.svg)
 
-[Telegram Sequence Diagram Code](src/telegram/sequence-diagram.puml)
+[Telegram Sequence Diagram Code](diagrams/src/telegram/sequence-diagram.puml)
 
 ### Group: 2. Send Message (with File Ref)
 
@@ -45,9 +45,9 @@ This group describes what happens when Alice sends a message (with an already-up
 
 ## Deployment
 
-![Telegram Deployment Diagram](out/telegram/deployment-diagram/Deployment%20Diagram.svg)
+![Telegram Deployment Diagram](diagrams/out/telegram/deployment-diagram/Deployment%20Diagram.svg)
 
-[Telegram Deployment Diagram Code](src/telegram/deployment-diagram.puml)
+[Telegram Deployment Diagram Code](diagrams/src/telegram/deployment-diagram.puml)
 
 - **Client Tier:** The Telegram Mobile App runs on user smartphones (iOS/Android). The Desktop App and Web Client (WebA/WebK) run on user computers, with the web client executing inside a browser.
 - **Edge / Connection Layer:** The MTProto Gateway and Bot API Frontend are deployed at the edge of Telegram's global infrastructure within the primary data center. They handle all incoming client and bot connections.

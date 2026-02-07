@@ -87,7 +87,7 @@ Backend Developer
 - Kubernetes
 - Repo Hosting Services
 
-### HH.ru postings
+## Job market snapshot
 
 - Backend разработчик
   - [link to the posting](https://hh.ru/vacancy/129299244)
@@ -108,8 +108,6 @@ Backend Developer
 - Python Backend-разработчик (PostgreSQL, RabbitMQ, FastAPI)
   - [link to the posting](https://hh.ru/vacancy/129685370)
   - python, Django, docker, kubernetes, git, agile
-
-## Job market snapshot
 
 ### Skills that appear in several postings
 <!-- 3-5 skills -->
